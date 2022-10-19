@@ -1,5 +1,4 @@
 import { ComponentProps } from 'react'
-// import { User } from 'phosphor-react'
 
 import * as S from './styles'
 
