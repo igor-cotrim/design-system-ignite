@@ -1,0 +1,2 @@
+import{A as t}from"./index.dd7773f4.js";import"./index.64bc2679.js";import"./iframe.03483f98.js";import"./index.de43ba96.js";import"./jsx-runtime.30d6d6e6.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://github.com/igor-cotrim.png",alt:"Igor Cotrim"},argTypes:{src:{control:{type:"text"}}}},m={},p={args:{src:void 0}},e=["Primary","WithFallback"];export{m as Primary,p as WithFallback,e as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.6585c22b.js.map
