@@ -24,9 +24,7 @@ jobs:
 
       - run: npm ci
 
-      - run: npm run build
-
-      - name:  Publish to NPM
+      - name: Publish to NPM
         id: changesets
         uses: changesets/action@v1
         with:
@@ -34,5 +32,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          TURBO_TOKEN: oyd97EbdqOwuCCF8bJNaVRbW
-          TURBO_TEAM: igor-cotrim
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          TURBO_TEAM: rocketseat
